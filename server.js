@@ -6,7 +6,7 @@ const middleware = require('./middleware');
 const cors = require('cors');
 const app = express();
 
-
+//THis is MongoDB ATlas
 mongoose.connect("mongodb+srv://mealmob-backend:meal123@mealmobbackend.w3ctdrg.mongodb.net/?retryWrites=true&w=majority&appName=mealmobBackend").then(
     () => console.log('DB Connection established')
 )
